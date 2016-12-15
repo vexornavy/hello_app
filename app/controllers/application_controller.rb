@@ -3,4 +3,7 @@ class ApplicationController < ActionController::Base
   def hello
     render html: "hello, world!"
   end
+  def goodbye
+    render html: "GOODBYE CRUEL WORLD :condi:"
+  end
 end
